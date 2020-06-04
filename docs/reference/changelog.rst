@@ -5,8 +5,9 @@ Changelog
 #########
 
 develop
------------------
-* [FEATURE] Add support for expect_volumn_values_to_match_json_schema exception for Spark backend (thanks @chipmyersjr!)
+----------------
+* [FEATURE] Add new expectation expect_table_row_count_to_equal_other_table for SqlAlchemyDataset
+* [FEATURE] Add support for expect_column_values_to_match_json_schema exception for Spark backend (thanks @chipmyersjr!)
 * [ENHANCEMENT] Add formatted __repr__ for ValidationOperatorResult
 * [ENHANCEMENT] add option to suppress logging when getting expectation suite
 * [BUGFIX] Fix object name construction when calling SqlAlchemyDataset.head (thanks @mascah!)
